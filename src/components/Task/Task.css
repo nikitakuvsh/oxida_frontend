@@ -1,0 +1,127 @@
+.task-page {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.task-page__content {
+    max-width: 900px;
+    width: 100%;
+}
+
+.task-detail {
+    display: flex;
+    background: #1b1f2a;
+    border: 1px solid #2a2f3d;
+    border-radius: 14px;
+    overflow: hidden;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.task-detail__image {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.task-detail__info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-detail__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-detail__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.task-detail__deadline {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+.task-detail__description {
+    font-size: 14px;
+    color: #d1d5db;
+}
+
+.task-detail__executor {
+    font-size: 13px;
+    color: #8b8f98;
+}
+
+.task-detail__button {
+    width: fit-content;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #2a2f3d;
+    border: 1px solid #3a3f52;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 4px;
+}
+
+.task-detail__button:hover {
+    background: #3a3f52;
+    transform: translateY(-2px);
+}
+
+.task-detail__tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.task-detail__tag {
+    background: #2a2f3d;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.task-detail__files h4,
+.task-detail__comments h4 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.task-detail__files ul {
+    padding-left: 20px;
+    color: #d1d5db;
+    font-size: 13px;
+}
+
+.task-detail__comment {
+    background: #232735;
+    padding: 6px 10px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    font-size: 13px;
+    color: #d1d5db;
+}
+
+.task-detail__comments-empty {
+    color: #8b8f98;
+    font-size: 13px;
+    font-style: italic;
+}

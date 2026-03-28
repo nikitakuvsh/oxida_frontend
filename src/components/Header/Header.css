@@ -1,0 +1,76 @@
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background: #0f1115;
+    border-bottom: 1px solid #1c1f26;
+}
+
+.header__content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 14px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGO */
+
+.header__logo-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #e6e6e6;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+/* NAV */
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.header__nav nav {
+    display: flex;
+    gap: 18px;
+}
+
+.header__nav-list {
+    font-size: 14px;
+    color: #8b8f98;
+    text-decoration: none;
+    cursor: pointer;
+
+    padding: 4px 2px;
+    transition: 0.2s;
+}
+
+.header__nav-list:hover {
+    color: #ffffff;
+}
+
+/* активная ссылка */
+
+.header__nav-list.active {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+/* MONEY */
+
+.header__money {
+    font-size: 13px;
+    color: #d1d5db;
+
+    padding: 6px 10px;
+    border-radius: 8px;
+
+    background: #171a21;
+    border: 1px solid #232630;
+}
